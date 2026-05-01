@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd crop-connect && npm run build",
+  "installCommand": "cd crop-connect && npm install",
+  "outputDirectory": "crop-connect/build",
+  "framework": "create-react-app",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
